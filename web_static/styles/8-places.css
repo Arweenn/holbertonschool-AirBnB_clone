@@ -57,8 +57,8 @@
     border-bottom: 1px solid #DDDDDD;
 }
 
-.guests, .bedrooms, .bathrooms {
-    width: 100%;
+.max_guest, .number_rooms, .number_bathrooms {
+    width: 100px;
     height: 80px;
     margin: 15px;
     display: flex; 
@@ -68,24 +68,14 @@
     background-position: center top;
 }
 
-.user {
-    text-align: left;
-    margin-left: 10px;
-}
-
-.description {
-    margin-top: 5px;
-    justify-content: justify;
-}
-
-.guests {
+.max_guest {
     background-image: url(/holberton/holbertonschool-AirBnB_clone/web_static/styles/images/icon_group.png);
 }
 
-.bedrooms {
+.number_rooms {
     background-image: url(/holberton/holbertonschool-AirBnB_clone/web_static/styles/images/icon_bed.png);
 }
 
-.bathrooms {
+.number_bathrooms {
     background-image: url(/holberton/holbertonschool-AirBnB_clone/web_static/styles/images/icon_bath.png);
 }
